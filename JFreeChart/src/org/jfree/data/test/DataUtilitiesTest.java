@@ -188,8 +188,10 @@ public class DataUtilitiesTest
 
 			
 		}
-		
-		@Test (expected = IllegalArgumentException.class)
+		@org.junit.Rule
+		public ExpectedException Rule = ExpectedException.none();
+	
+		@Test
 		public void testCreateNumberArray2DTestIfFunctionRejectsNullInput() {
 			/*
 			 * This test case is supposed to test if the function createNumberArray2D 
@@ -201,6 +203,8 @@ public class DataUtilitiesTest
 			//returnVal is null and should remain null since createNumberArray2D should reject the input
 			//and not return anything
 			Number returnVal[][] = null; 
+			
+			Rule.expect(InvalidParameterException.class); //Sets a rule that an InvalidParameterException must be thrown
 			
 			returnVal = DataUtilities.createNumberArray2D(data);
 		
@@ -306,8 +310,7 @@ public class DataUtilitiesTest
 			}	
 		}
 		
-		@org.junit.Rule
-		public ExpectedException Rule = ExpectedException.none(); 
+		 
 
 		
 		@Test 
