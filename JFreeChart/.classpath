@@ -11,23 +11,23 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="./JFreeChart/src/lib/bsh-core-2.0b4.jar"/>
-	<classpathentry kind="lib" path="./JFreeChart/src/lib/cglib-2.1_3-src.jar"/>
-	<classpathentry kind="lib" path="./JFreeChart/src/lib/cglib-nodep-2.1_3.jar"/>
-	<classpathentry kind="lib" path="./JFreeChart/src/lib/gnujaxp.jar"/>
-	<classpathentry kind="lib" path="./JFreeChart/src/lib/hamcrest-core-1.1.jar"/>
-	<classpathentry kind="lib" path="./JFreeChart/src/lib/hamcrest-library-1.1.jar"/>
-	<classpathentry kind="lib" path="./JFreeChart/src/lib/jcommon-1.0.0-rc1-cvs.jar"/>
-	<classpathentry kind="lib" path="./JFreeChart/src/lib/jcommon-1.0.5.jar"/>
-	<classpathentry kind="lib" path="./JFreeChart/src/lib/jmock-2.5.1.jar"/>
-	<classpathentry kind="lib" path="./JFreeChart/src/lib/jmock-junit3-2.5.1.jar"/>
-	<classpathentry kind="lib" path="./JFreeChart/src/lib/jmock-junit4-2.5.1.jar"/>
-	<classpathentry kind="lib" path="./JFreeChart/src/lib/jmock-legacy-2.5.1.jar"/>
-	<classpathentry kind="lib" path="./JFreeChart/src/lib/jmock-script-2.5.1.jar"/>
-	<classpathentry kind="lib" path="./JFreeChart/src/lib/junit.jar"/>
-	<classpathentry kind="lib" path="./JFreeChart/src/lib/junit-old.jar"/>
-	<classpathentry kind="lib" path="./JFreeChart/src/lib/objenesis-1.0.jar"/>
-	<classpathentry kind="lib" path="./JFreeChart/src/lib/servlet.jar"/>
-	<classpathentry kind="lib" path="./JFreeChart/src/lib/jfreechart.jar"/>
+	<classpathentry kind="lib" path="./src/lib/bsh-core-2.0b4.jar"/>
+	<classpathentry kind="lib" path="./src/lib/cglib-2.1_3-src.jar"/>
+	<classpathentry kind="lib" path="./src/lib/cglib-nodep-2.1_3.jar"/>
+	<classpathentry kind="lib" path="./src/lib/gnujaxp.jar"/>
+	<classpathentry kind="lib" path="./src/lib/hamcrest-core-1.1.jar"/>
+	<classpathentry kind="lib" path="./src/lib/hamcrest-library-1.1.jar"/>
+	<classpathentry kind="lib" path="./src/lib/jcommon-1.0.0-rc1-cvs.jar"/>
+	<classpathentry kind="lib" path="./src/lib/jcommon-1.0.5.jar"/>
+	<classpathentry kind="lib" path="./src/lib/jmock-2.5.1.jar"/>
+	<classpathentry kind="lib" path="./src/lib/jmock-junit3-2.5.1.jar"/>
+	<classpathentry kind="lib" path="./src/lib/jmock-junit4-2.5.1.jar"/>
+	<classpathentry kind="lib" path="./src/lib/jmock-legacy-2.5.1.jar"/>
+	<classpathentry kind="lib" path="./src/lib/jmock-script-2.5.1.jar"/>
+	<classpathentry kind="lib" path="./src/lib/junit.jar"/>
+	<classpathentry kind="lib" path="./src/lib/junit-old.jar"/>
+	<classpathentry kind="lib" path="./src/lib/objenesis-1.0.jar"/>
+	<classpathentry kind="lib" path="./src/lib/servlet.jar"/>
+	<classpathentry kind="lib" path="./src/lib/jfreechart.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
